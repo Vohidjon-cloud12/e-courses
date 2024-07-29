@@ -2,6 +2,6 @@ from django.shortcuts import render
 from django.views import View
 
 
-class IndexPage(View):
+class CoursePage(View):
     def get(self, request):
-        return render(request, 'index.html')
+        return render(request, 'course.html')

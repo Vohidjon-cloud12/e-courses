@@ -1,7 +1,7 @@
 from django.urls import path
 
-from courses.views import IndexPage
+from courses.views import CoursePage
 
 urlpatterns = [
-    path('index/', IndexPage.as_view(), name='index'),
+    path('course/', CoursePage.as_view(), name='course'),
 ]
